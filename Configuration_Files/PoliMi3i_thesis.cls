@@ -15,7 +15,7 @@
 %	HANDLING THE STYLE OF THE THESIS
 %--------------------------------------------------------------------------
 %\LoadClass[12pt, twoside]{book} % 12 pt font, two-sided book style, for uni version
-\LoadClass[12pt, twoside]{book} % 12 pt font, one-sided book style for print verion
+\LoadClass[12pt, oneside]{book} % 12 pt font, one-sided book style for print verion
 
 
 \RequirePackage[a4paper, includehead, headheight=0.6cm, inner=3.0cm ,outer=2.0cm, top=2.5cm, bottom=2.5cm]{geometry}
@@ -60,13 +60,7 @@
 	\thesisspacing % Double or single spacing
 }
 
-\newcommand\blankpage{%
-    \null
-    \AddToShipoutPicture*{\BackgroundPic}
-    \thispagestyle{empty}%
-    \addtocounter{page}{-1}%
-    \newpage
-}
+
 
 %------------------------------------------------------------------------
 %	BUILDING THE TITLE PAGE
@@ -127,22 +121,23 @@
             \includegraphics[trim={0 0 0 0},clip, width=0.9\textwidth]{Images/02_ING_IND_INFORMAZIONE_COL_POSITIVO}
             \hfill
             \\
-			\vspace{2.5cm}
-			\\
-			{{\color{black} \singlespacing \huge \bfseries \thesistitle \par}}	
 			\vspace{1.5cm}
+			\\
+			{{\color{black} \centering \singlespacing \huge \bfseries \thesistitle \par}}	
+			\vspace{4.5cm}
 			%{\color{bluepoli} \bfseries \large{\textsc{Tesi di Laurea Magistrale in\\ \course}}\par}
 			%\vspace{1.5 cm}
-			{\color{black} \begin{flushright} \Large {Project by:\\} \textbf{\name}\end{flushright}}
+			{\color{black} \large{\begin{flushleft} {Project by:\\} \textbf{\name}\end{flushleft}}}
 			\end{minipage}
 			\\
-			\vspace*{\fill}
+			\\
+        
 			\\
 			\begin{minipage}{0.85\textwidth}
 			\large{
-			Professor: {\advisor}
+			Professor: \textbf{\advisor}
             \\
-            A.A. {\phdcycle}}
+            Academic Year: \textbf{{\phdcycle}}}
 			\end{minipage}
 	\end{titlepage}
 }

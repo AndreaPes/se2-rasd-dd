@@ -35,23 +35,24 @@
 
 % Title format: chapter
 \titleformat{\chapter}[hang]{
-\fontsize{50}{20}\selectfont\bfseries\filright}{\textcolor{black} \thechapter\hsp\hspace{2mm}\textcolor{black}{|   }\hsp}{0pt}{\huge\bfseries \textcolor{black}
+\fontsize{50}{20}\selectfont\bfseries\filright}{\textcolor{bluepoli} \thechapter\hsp\hspace{2mm}\textcolor{bluepoli}{|   }\hsp}{0pt}{\huge\bfseries \textcolor{bluepoli}
 }
 
 % Title format: section
 \titleformat{\section}
-{\color{black}\normalfont\Large\bfseries}
-{\color{black}\thesection.}{1em}{}
+{\color{bluepoli}\normalfont\Large\bfseries}
+{\color{bluepoli}\thesection.}{1em}{}
 
 % Title format: subsection
 \titleformat{\subsection}
-{\color{black}\normalfont\large\bfseries}
-{\color{black}\thesubsection.}{1em}{}
+{\color{bluepoli}\normalfont\large\bfseries}
+{\color{bluepoli}\thesubsection.}{1em}{}
 
 % Title format: subsubsection
 \titleformat{\subsubsection}
-{\color{black}\normalfont\large\bfseries}
-{\color{black}\thesubsubsection.}{1em}{}
+{\color{bluepoli}\normalfont\large\bfseries}
+{\color{bluepoli}\thesubsubsection.}{1em}{}
+
 
 % Shortening for setting no horizontal-spacing
 \newcommand{\hsp}{\hspace{0pt}}
@@ -80,3 +81,15 @@
 \newcommand\itemgf{\item[{[\textbf{G6}]}]}
 \newcommand\itemgg{\item[{[\textbf{G7}]}]}
 \newcommand\itemgh{\item[{[\textbf{G8}]}]}
+\newcommand\itemgi{\item[{[\textbf{G9}]}]}
+
+%For costumized list
+\newlist{domainlist}{itemize}{1}
+\setlist[domainlist]{label=[\textbf{D1}]}
+\newcommand\itemdb{\item[{[\textbf{D2}]}]}
+\newcommand\itemdc{\item[{[\textbf{D3}]}]}
+\newcommand\itemdd{\item[{[\textbf{D4}]}]}
+\newcommand\itemde{\item[{[\textbf{D5}]}]}
+\newcommand\itemdf{\item[{[\textbf{D6}]}]}
+\newcommand\itemdg{\item[{[\textbf{D7}]}]}
+\newcommand\itemdh{\item[{[\textbf{D8}]}]}
