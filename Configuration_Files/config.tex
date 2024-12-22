@@ -1,6 +1,7 @@
 % Define blue color typical of polimi
 \definecolor{bluepoli}{cmyk}{0.4,0.1,0,0.4}
 
+
 % Custom theorem environments
 \declaretheoremstyle[
   headfont=\color{black}\normalfont\bfseries,
@@ -93,3 +94,26 @@
 \newcommand\itemdf{\item[{[\textbf{D6}]}]}
 \newcommand\itemdg{\item[{[\textbf{D7}]}]}
 \newcommand\itemdh{\item[{[\textbf{D8}]}]}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstdefinelanguage{alloy}{
+  keywords={abstract, sig, extends, var, fact, lone, one, set, always, implies, before, historically, some, all, none, pred, run, in},
+  keywordstyle=\color{blue}\bfseries,
+  comment=[l]{//},
+  commentstyle=\color{green!70!black}\itshape,
+  morestring=[b]',
+  stringstyle=\color{red},
+}
+
+\lstset{
+  language=alloy,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue}\bfseries,
+  commentstyle=\color{green!70!black}\itshape,
+  stringstyle=\color{red},
+  showstringspaces=false,
+  tabsize=2,
+  literate={'}{{\textquotesingle}}1
+}
