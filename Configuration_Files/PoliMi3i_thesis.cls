@@ -73,7 +73,7 @@
 			\vfill
 			\centering
 			\transparent{0.4}
-			\includegraphics[width=0.85\paperwidth]{./raggiera_polimi.eps}
+			\includegraphics[width=0.85\paperwidth]{Configuration_Files/Images/raggiera_polimi.eps}
 			\vfill
 }}}
 
@@ -84,7 +84,7 @@
 			\vfill
 			\centering
 			\transparent{0.4}
-			\includegraphics[width=0.70\paperwidth]{./raggiera_polimi.eps}
+			\includegraphics[width=0.70\paperwidth]{Configuration_Files/Images/raggiera_polimi.eps}
 			\vfill
 }}}
 
@@ -118,7 +118,7 @@
 			\vfill
 			%\begin{minipage}{0.95\textwidth}
 			\begin{minipage}{0.95\textwidth}
-            \includegraphics[trim={0 0 0 0},clip, width=0.9\textwidth]{Images/02_ING_IND_INFORMAZIONE_COL_POSITIVO}
+            \includegraphics[trim={0 0 0 0},clip, width=0.9\textwidth]{Configuration_Files/Images/02_ING_IND_INFORMAZIONE_COL_POSITIVO.eps}
             \hfill
             \\
 			\vspace{1.5cm}
