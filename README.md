@@ -29,7 +29,7 @@ Deliverables:
 - **Behavioral validation:** use scenarios and diagrams to surface edge cases early.
 - **Team collaboration:** division of work, reviews and shared style.
 
-## Credits
+## Team Members
 - [Andrea Pesciotti](https://github.com/AndreaPes)
 - [David Gadiaga](https://github.com/DavidGadiaga)
 - [Simone Somazzi](https://github.com/SimoSaimon)
