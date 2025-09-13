@@ -1,0 +1,3 @@
+# Ignore only these two directories at the repo root
+/Configuration_Files/
+/.idea/
